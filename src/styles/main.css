@@ -1,0 +1,8 @@
+.loginPanel {
+  width: 500px;
+  min-height: 200px;
+  max-height:300px;
+  position: fixed;
+  left: 50%;
+  margin-left: -250px;
+}

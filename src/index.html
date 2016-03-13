@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Adev BMI Tracker</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="../bower_components/angular-route/angular-route.min.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="app.js"></script>
+  <script src="components/main/main.controller.js"></script>
+  <script src="components/register/register.controller.js"></script>
+  <script src="components/register/register.directive.js"></script>
+</head>
+<body ng-app='BMITracker'>
+  <div ng-include="'views/header.html'"></div>
+  <div ng-view></div>
+</body>
+</html>
